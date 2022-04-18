@@ -86,7 +86,7 @@ def genkeys():
 
 class HelloWorld(Resource):
     def get(self):
-        return "Hello Evervault!"
+        return "Hello World"
 
 class encrypt(Resource):
     def get(self):    
