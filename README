@@ -1,0 +1,23 @@
+
+//installation instructions
+
+pip install flask flask-restful cryptography
+
+//running instructions
+
+python interview.py
+
+*open another command line instance*
+
+curl http://127.0.0.1:5000/encrypt
+curl http://127.0.0.1:5000/decrypt
+curl http://127.0.0.1:5000/sign
+curl http://127.0.0.1:5000/verify
+
+*recommended aliases*
+
+alias encrypt="curl http://127.0.0.1:5000/encrypt"
+alias decrypt="curl http://127.0.0.1:5000/decrypt"
+alias sign="curl http://127.0.0.1:5000/sign"
+alias verify="curl http://127.0.0.1:5000/verify"
+

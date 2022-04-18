@@ -1,0 +1,11 @@
+{
+    "glossary": {
+        "title": "example JSON",
+        "name": "David",
+		"alias": "DavidLynch-SD",
+        "password": "evervault"
+    },
+
+	"interview": "evervault"
+
+}
